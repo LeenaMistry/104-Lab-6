@@ -1,0 +1,185 @@
+.static-box{ 
+    background-color: rgb(213, 7, 254);
+    border-color: aqua;
+    height:200px;
+    width: 200px; 
+    position: static;
+}
+
+.relative-box{ 
+    background-color: rgb(35, 162, 65);
+    border-color: rgb(21, 0, 255);
+    height:200px;
+    width: 200px; 
+    position: relative;
+    top: 20px;
+    right: -30px;
+}
+
+.absolute-box{ 
+    background-color: rgb(145, 162, 84);
+    border-color: rgb(173, 65, 108);
+    height:200px;
+    width: 200px; 
+    position: absolute;
+    top: 10px;
+    left: 15px;
+}
+
+.fixed-box{ 
+    background-color: rgb(139, 84, 162);
+    border-color: rgb(132, 5, 81);
+    height:200px;
+    width: 200px; 
+    position: fixed;
+    bottom: 10px; 
+    right: 10px; 
+}
+
+.sticky-box{ 
+    background-color: rgb(194, 21, 21);
+    border-color: rgb(173, 65, 108);
+    height:200px;
+    width: 200px; 
+    position: sticky;
+    top: 0px;
+}
+
+.background-image{
+background-image: url(moon.jpg);
+background-size: cover;
+height: 200px;
+width: 200px;
+}
+
+.background-image-repeat{
+    background-image: url(moon.jpg);
+    background-repeat:repeat-x;
+    background-repeat:repeat-y;
+    background-size: 40%;
+    height: 200px;
+    width: 200px;
+    }
+
+    .overlap .box-1{ background-color: green;
+        z-index: -1;
+        position: absolute;
+        height: 300px;
+        width: 300px;
+    }
+
+
+    .overlap .box-2{ background-color: yellow;
+        z-index: 2;
+        position: relative;
+        height:250px;
+        width: 250px;
+    }
+
+
+    .container1{
+        background-color: rgb(212, 164, 179);
+        border-color: aqua;
+        height:200px;
+        width: 800px; 
+       display:flex;
+    flex-direction: row; }
+
+    .container2{
+    background-color: rgb(84, 88, 96);
+    height: 300px;
+    width: 8000px; 
+   display: flex;
+flex-direction: column; 
+    }
+
+    .container3{
+        background-color: rgb(131, 202, 172);
+        height: 300px;
+        width: 800px; 
+       display: flex;
+    justify-content: space-evenly; 
+        }
+
+
+    .container4{
+            background-color: rgb(207, 68, 177);
+        height: 300px;
+        width: 800px; 
+       display: flex;
+       flex-wrap: wrap;
+        }
+
+
+        .container5 .div1{
+            background-color: rgb(31, 36, 131);
+        height: 80px;
+        width: 100px;
+        display: inline-block;
+        }
+
+        .container5 .div2{
+            background-color: rgb(72, 14, 120);
+        height: 50px;
+        width: 100px;
+        display: inline-block;
+        }
+
+        .container5 .div3{
+            background-color: rgb(30, 117, 91);
+        height: 20px;
+        width: 100px;
+        display: inline-block;
+        }
+
+        .container5{
+            align-items: center;
+            height:200px;
+            width: 200px;
+            background-color: brown;
+            display: flex
+        }
+
+        .container6{
+            background-color: rgb(189, 134, 13);
+        height: 200px;
+        width: 300px; 
+       display: flex;
+       align-items: space-evenly;
+        }
+
+        .container6 .flex-container6{      
+        height: 20px;
+        width: 100px;
+        display: inline-block;
+        }
+       
+        .container7{
+            background-color: rgb(22, 98, 16);
+        height: 200px;
+        width: 300px; 
+       display: flex;
+        }
+
+        .container7 .div5{      
+        height: 20px;
+        width: 100px;
+        display: inline-block;
+        flex-grow: 2;
+        background-color: aquamarine;
+        }
+
+        .container7 .div4{      
+            height: 20px;
+            width: 100px;
+            display: inline-block;
+            background-color: rgb(172, 127, 255);
+            }
+
+            .container7 .div6{      
+                height: 20px;
+                width: 100px;
+                display: inline-block;
+                background-color: rgb(205, 106, 118);
+                }
+        
